@@ -1,27 +1,27 @@
-import slider1 from "./assets/slider1.png";
-import slider2 from "./assets/slider2.png";
-import slider3 from "./assets/slider3.png";
+import slider1 from "../assets/slider1.png";
+import slider2 from "../assets/slider2.png";
+import slider3 from "../assets/slider3.png";
 
-import category1 from "./assets/category1.jpg";
-import category2 from "./assets/category2.jpg";
-import category3 from "./assets/category3.jpg";
+import category1 from "../assets/category1.jpg";
+import category2 from "../assets/category2.jpg";
+import category3 from "../assets/category3.jpg";
 
-import products1 from "./assets/products1.png";
-import products2 from "./assets/products2.png";
-import products3 from "./assets/products3.png";
-import products4 from "./assets/products4.png";
-import products5 from "./assets/products5.png";
-import products6 from "./assets/products6.png";
-import products7 from "./assets/products7.png";
-import products8 from "./assets/products8.png";
-import products9 from "./assets/products9.png";
-import products10 from "./assets/products10.png";
-import products11 from "./assets/products11.png";
-import products12 from "./assets/products12.png";
-import products13 from "./assets/products13.png";
-import products14 from "./assets/products14.png";
-import products15 from "./assets/products15.png";
-import products16 from "./assets/products16.png";
+import products1 from "../assets/products1.png";
+import products2 from "../assets/products2.png";
+import products3 from "../assets/products3.png";
+import products4 from "../assets/products4.png";
+import products5 from "../assets/products5.png";
+import products6 from "../assets/products6.png";
+import products7 from "../assets/products7.png";
+import products8 from "../assets/products8.png";
+import products9 from "../assets/products9.png";
+import products10 from "../assets/products10.png";
+import products11 from "../assets/products11.png";
+import products12 from "../assets/products12.png";
+import products13 from "../assets/products13.png";
+import products14 from "../assets/products14.png";
+import products15 from "../assets/products15.png";
+import products16 from "../assets/products16.png";
 
 export const sliderItems = [
   {
