@@ -4,7 +4,7 @@ import { CiTwitter } from "react-icons/ci"
 import { footerLinks } from "../../db/data"
 import { FaLocationDot } from "react-icons/fa6"
 import { IoMail } from "react-icons/io5"
-
+import payment from "../../assets/payment-img-removebg-preview.png"
 function Footer() {
   return (
     <div className="footer-container">
@@ -47,7 +47,7 @@ function Footer() {
             <div className="contact-item">
                 <IoMail style={{marginRight:"10px"}}/> riaju@gmail.com
             </div>
-            <img className="payment" src="../../assets/payment-img-removebg-preview.png" alt="" />
+            <img className="payment" src={payment} alt="" />
         </div>
     </div>
   )
