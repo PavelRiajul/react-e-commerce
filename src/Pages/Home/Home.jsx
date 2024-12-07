@@ -1,5 +1,6 @@
 import Announcement from "../../Components/Announcement/Announcement"
 import Category from "../../Components/Category/Category"
+import Footer from "../../Components/Footer/Footer"
 import Navbar from "../../Components/Navbar/Navbar"
 import Newsletter from "../../Components/Newsletter/Newsletter"
 import BestSeller from "../../Components/Products/BestSeller"
@@ -17,6 +18,7 @@ function Home() {
         <NewArrivals/>
         <BestSeller/>
         <Newsletter/>
+        <Footer/>
     </div>
   )
 }
