@@ -8,6 +8,7 @@ import NewArrivals from "../../Components/Products/NewArrivals"
 import Slider from "../../Components/Slider/Slider"
 
 
+
 function Home() {
   return (
     <div>
@@ -19,6 +20,7 @@ function Home() {
         <BestSeller/>
         <Newsletter/>
         <Footer/>
+        
     </div>
   )
 }

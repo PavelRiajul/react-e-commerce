@@ -67,6 +67,9 @@ gap: 20px;
   top: 5px;
   right: 10px;
 }
+.navbar-menuItem{
+ color: black;
+}
 @media (max-width: 768px) {
     .navbar-container {
       height: 50px;

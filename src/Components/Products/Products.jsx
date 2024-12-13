@@ -27,5 +27,4 @@ function Products({items,heading}) {
     </div>
   )
 }
-
 export default Products
