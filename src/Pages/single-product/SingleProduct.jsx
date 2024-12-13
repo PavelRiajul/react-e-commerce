@@ -4,8 +4,13 @@ import { allProducts } from "../../db/data"
 import Navbar from "../../Components/Navbar/Navbar"
 import Footer from "../../Components/Footer/Footer"
 import { useState } from "react"
-
+import { useDispatch } from "react-redux"
+import {addToCart} from "../../redux/createSlice"
 const SingleProduct = () => {
+    const dispatch = useDispatch()
+    const handleAddToCart = (product) =>{
+        dispatch(addToCart(product))
+    }
     const {id} = useParams()
     const product = allProducts.find((product)=> product.id === parseInt(id));
     const colors = ["red","purple","teal","green","black"]
@@ -55,7 +60,7 @@ const SingleProduct = () => {
           </div>
         </div>
         <div className="addToCart">
-            <button>Add to cart</button>
+            <button onClick={()=>handleAddToCart(product)}>Add to cart</button>
         </div>
     </div>
     </div>
