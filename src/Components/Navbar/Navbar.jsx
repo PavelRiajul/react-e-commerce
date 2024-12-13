@@ -15,7 +15,7 @@ function Navbar() {
             </div>
            </div>
            <div className="navbar-center">
-           <h1 className="navbar-logo">Rise of Coding</h1>
+            <Link to={"/"}><h1 className="navbar-logo">Rise of Coding</h1></Link>
         </div>
         <div className="navbar-right">
             <Link to="/register"><div className="navbar-menuItem">Register</div></Link>
